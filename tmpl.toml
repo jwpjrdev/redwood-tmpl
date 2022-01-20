@@ -1,6 +1,6 @@
 path = '/' # defaults to /
 queries = [
-  - 'project name' # optional regex validation
+  'project name' # optional regex validation
 ]
 pre-install-commands = """
   yarn install
@@ -12,5 +12,5 @@ post-install-commands = """
   echo "post install"
 """
 replacements = [
-  - 'TODO'
+  'TODO'
 ]
