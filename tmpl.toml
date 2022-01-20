@@ -1,0 +1,16 @@
+path = '/' # defaults to /
+queries = [
+  - 'project name' # optional regex validation
+]
+pre-install-commands = """
+  yarn install
+"""
+install-commands = """
+  yarn create redwood-app ./${project name}
+"""
+post-install-commands = """
+  echo "post install"
+"""
+replacements = [
+  - 'TODO'
+]
