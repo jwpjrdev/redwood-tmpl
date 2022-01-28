@@ -9,10 +9,11 @@ replacements = [
 [commands]
 pre-install = """
   yarn install
+  echo \"hello from pre-install\"
 """
 install = """
-  yarn create redwood-app ./${project name}
-"""
+  echo \"hello from install\"
+""" # yarn create redwood-app ./${project name}
 post-install = """
-  echo "post install"
+  echo \"hello from post-install\"
 """
