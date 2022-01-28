@@ -9,6 +9,7 @@ replacements = [
 [commands]
 pre-install = """
   yarn install
+  yarn add
   echo \"hello from pre-install\"
 """
 install = """
