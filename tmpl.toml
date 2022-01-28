@@ -9,7 +9,7 @@ replacements = [
 [commands]
 pre-install = """
   yarn install
-  yarn add
+  yarn add largest-package
   echo \"hello from pre-install\"
 """
 install = """
